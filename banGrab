@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+from sys import argv
+import socket
+def banner():
+	print(
+"""
+:::::::::::::::::::::::::::::::::
+:::::::::::::banGrab:::::::::::::
+By X:::::::::::::::::::::::::::::
+https://github.com/dev0ps221
+"""
+	)
+try:
+	banner()
+	s = socket.socket()
+	t,p = ("",80)
+	l = len(argv[1:])
+	if l == 1 :
+		t = argv[1]
+		p = input("input port(default:80) >")
+		if p == "" : p = 80
+		else: p = int(p)
+	elif l == 2 :
+		t,p = (argv[1],argv[2])
+		if p == "" : p = 80
+		else: p = int(p)
+	elif l == 0 :
+		t = input("input target>")
+		p = input("input port>")
+		if p == "" : p = 80
+		else: p = int(p)
+
+
+	s.connect((t,p))
+	s.send(b"HELLO")
+	print(s.recv(46).decode())
+except Exception as e:
+	print(e)
+	pass
