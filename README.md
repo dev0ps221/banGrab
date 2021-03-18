@@ -11,29 +11,7 @@
 
 #get the execute rights ;)
 `chmod +x banGrab`
-#run
-`
-./banGrab 
-
-:::::::::::::::::::::::::::::::::
-:::::::::::::banGrab:::::::::::::
-By X:::::::::::::::::::::::::::::
-https://github.com/dev0ps221
-
-input target>192.168.1.70
-input port>21
-220 (vsFTPd 3.0.3)
-
-`
-#or
-`
-./banGrab 192.168.1.60 21
-
-:::::::::::::::::::::::::::::::::
-:::::::::::::banGrab:::::::::::::
-By X:::::::::::::::::::::::::::::
-https://github.com/dev0ps221
-
-220 (vsFTPd 3.0.3)
-
-`
+#run \n
+`./banGrabn\n\n:::::::::::::::::::::::::::::::::\n:::::::::::::banGrab:::::::::::::\nBy X:::::::::::::::::::::::::::::\nhttps://github.com/dev0ps221\n\ninput target>192.168.1.70\ninput port>21\n220 (vsFTPd 3.0.3)\n\n`
+#or \n
+`./banGrab 192.168.1.60 21\n:::::::::::::::::::::::::::::::::\n:::::::::::::banGrab:::::::::::::\n\nBy X:::::::::::::::::::::::::::::\nhttps://github.com/dev0ps221\n\n220 (vsFTPd 3.0.3)`
