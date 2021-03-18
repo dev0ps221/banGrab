@@ -23,4 +23,4 @@
 
 #or 
 
-`./banGrab 192.168.1.60 21`
+`./banGrab target port`
